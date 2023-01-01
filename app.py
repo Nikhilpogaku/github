@@ -3,8 +3,8 @@ from random import randint
 from datetime import datetime, timedelta
 
 # Define the start and end dates
-start_date = datetime(year=2022, month=1, day=1)
-end_date = datetime(year=2023, month=1, day=24)
+start_date = datetime(year=2023, month=1, day=1)
+end_date = datetime(year=2024, month=12, day=31)
 
 # Calculate the number of days in the range
 delta_days = (end_date - start_date).days
