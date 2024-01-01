@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 # Define the start and end dates
 start_date = datetime(year=2024, month=1, day=1)
-end_date = datetime(year=2024, month=1, day=30)
+end_date = datetime(year=2024, month=12, day=30)
 
 # Calculate the number of days in the range
 delta_days = (end_date - start_date).days
